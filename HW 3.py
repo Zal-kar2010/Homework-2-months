@@ -39,6 +39,6 @@ class Classmate(Person):
 cl2 = Classmate("Бектур", "05.12.2010", "программист", True, "10А")
 cl2.introduce()
 
-fr2 = Friend("Залкар", "30.10.2010", "не работаю", False, "чтение манги")
+fr2 = Friend("Залкар", "3.10.2010", "не работаю", False, "чтение манги")
 fr2.introduce()
 
