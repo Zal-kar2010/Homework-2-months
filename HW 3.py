@@ -36,10 +36,9 @@ class Classmate(Person):
         print(f"Привет, меня зовут {self.name}. Моя профессия {self.get_occupation()}. Я учился с Игорем в группе {self.group}. У меня {edu}.")
 
 
-# Примеры
-cl1 = Classmate("Иван", "20.02.2000", "студент", True, "11D")
-cl1.introduce()
+cl2 = Classmate("Бектур", "05.12.2010", "программист", True, "10А")
+cl2.introduce()
 
-fr1 = Friend("Айбек", "20.02.2000", "студент", True, "футбол")
-fr1.introduce()
+fr2 = Friend("Залкар", "30.10.2010", "не работаю", False, "чтение манги")
+fr2.introduce()
 
